@@ -26180,6 +26180,10 @@ __d(function (global, require, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, expor
       });
     };
     return /*#__PURE__*/(0, _jsxRuntime.jsxs)(_View.default, {
+      style: {
+        marginTop: 50,
+        gap: 10
+      },
       children: [/*#__PURE__*/(0, _jsxRuntime.jsx)(_Button.default, {
         title: "Verificar Atualiza\xE7\xE3o GitHub (Expo SDK 52+)",
         onPress: handleCheckGitHubUpdate
