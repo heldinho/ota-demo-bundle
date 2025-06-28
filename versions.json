@@ -1,6 +1,6 @@
 {
   "android": {
-    "latest": "1.0.3",
+    "latest": "1.0.4",
     "versions": {
       "1.0.1": {
         "bundleUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/main/bundles/android/v1.0.1/index.android.bundle",
@@ -28,11 +28,20 @@
         "mandatory": false,
         "description": "Implementado o restar app",
         "releaseDate": "2025-06-28T08:10:44.907Z"
+      },
+      "1.0.4": {
+        "bundleUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/main/bundles/android/v1.0.4/index.android.bundle",
+        "assetsUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/main/bundles/android/v1.0.4/assets.zip",
+        "hash": "62440199b74f51e31b3b5ddce1c329207b55e651189c334a8cf9b097f348baf4",
+        "size": 1020430,
+        "mandatory": true,
+        "description": "ajuste app",
+        "releaseDate": "2025-06-28T08:19:28.558Z"
       }
     }
   },
   "ios": {
-    "latest": "1.0.3",
+    "latest": "1.0.4",
     "versions": {
       "1.0.1": {
         "bundleUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/main/bundles/ios/v1.0.1/main.jsbundle",
@@ -60,6 +69,15 @@
         "mandatory": false,
         "description": "Implementado o restar app",
         "releaseDate": "2025-06-28T08:10:44.907Z"
+      },
+      "1.0.4": {
+        "bundleUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/main/bundles/ios/v1.0.4/main.jsbundle",
+        "assetsUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/main/bundles/ios/v1.0.4/assets.zip",
+        "hash": "e2cd531dc94ef0e7b1111ef4c480de67db61cefcc63be60efff3cfe92db5cbc1",
+        "size": 1015602,
+        "mandatory": true,
+        "description": "ajuste app",
+        "releaseDate": "2025-06-28T08:19:28.558Z"
       }
     }
   }
