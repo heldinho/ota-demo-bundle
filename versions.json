@@ -1,6 +1,6 @@
 {
   "android": {
-    "latest": "1.0.2",
+    "latest": "1.0.3",
     "versions": {
       "1.0.1": {
         "bundleUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/main/bundles/android/v1.0.1/index.android.bundle",
@@ -19,11 +19,20 @@
         "mandatory": false,
         "description": "Ajuste na tela de App.tsx",
         "releaseDate": "2025-06-28T08:05:55.715Z"
+      },
+      "1.0.3": {
+        "bundleUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/main/bundles/android/v1.0.3/index.android.bundle",
+        "assetsUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/main/bundles/android/v1.0.3/assets.zip",
+        "hash": "bf56500d33d9db3cdd4a24df07ff9fa84e809623d18c90a06cb8c3609e7ed322",
+        "size": 1020385,
+        "mandatory": false,
+        "description": "Implementado o restar app",
+        "releaseDate": "2025-06-28T08:10:44.907Z"
       }
     }
   },
   "ios": {
-    "latest": "1.0.2",
+    "latest": "1.0.3",
     "versions": {
       "1.0.1": {
         "bundleUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/main/bundles/ios/v1.0.1/main.jsbundle",
@@ -42,6 +51,15 @@
         "mandatory": false,
         "description": "Ajuste na tela de App.tsx",
         "releaseDate": "2025-06-28T08:05:55.715Z"
+      },
+      "1.0.3": {
+        "bundleUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/main/bundles/ios/v1.0.3/main.jsbundle",
+        "assetsUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/main/bundles/ios/v1.0.3/assets.zip",
+        "hash": "5667f25f8c2b57ef20c342988ea3344526584589ad4d32b70446a5fd83b0cb12",
+        "size": 1015557,
+        "mandatory": false,
+        "description": "Implementado o restar app",
+        "releaseDate": "2025-06-28T08:10:44.907Z"
       }
     }
   }
