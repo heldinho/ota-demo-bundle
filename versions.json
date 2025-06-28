@@ -9,9 +9,18 @@
         "mandatory": false,
         "description": "Correções de bugs",
         "releaseDate": "2025-06-28T06:43:43.484Z"
+      },
+      "1.0.3": {
+        "bundleUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/refs/heads/main/bundles/android/v1.0.3/index.android.bundle",
+        "assetsUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/refs/heads/main/bundles/android/v1.0.3/assets.zip",
+        "hash": "e5800f4d981045c7324917ef76bf3c6d500045bbdbb7524798fbf6657d30d196",
+        "size": 1008822,
+        "mandatory": false,
+        "description": "Correções de bugs",
+        "releaseDate": "2025-06-28T06:45:06.602Z"
       }
     },
-    "latest": "1.0.2"
+    "latest": "1.0.3"
   },
   "ios": {
     "versions": {
@@ -23,8 +32,17 @@
         "mandatory": false,
         "description": "Correções de bugs",
         "releaseDate": "2025-06-28T06:43:43.484Z"
+      },
+      "1.0.3": {
+        "bundleUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/refs/heads/main/bundles/ios/v1.0.3/main.jsbundle",
+        "assetsUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/refs/heads/main/bundles/ios/v1.0.3/assets.zip",
+        "hash": "5f494f905df7b170e045c378e300f8b94f7bac849f5d3ba723af211f3d4d1445",
+        "size": 1003994,
+        "mandatory": false,
+        "description": "Correções de bugs",
+        "releaseDate": "2025-06-28T06:45:06.602Z"
       }
     },
-    "latest": "1.0.2"
+    "latest": "1.0.3"
   }
 }
