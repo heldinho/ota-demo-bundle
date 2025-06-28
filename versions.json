@@ -1,6 +1,6 @@
 {
   "android": {
-    "latest": "1.0.4",
+    "latest": "1.0.5",
     "versions": {
       "1.0.1": {
         "bundleUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/main/bundles/android/v1.0.1/index.android.bundle",
@@ -37,11 +37,20 @@
         "mandatory": true,
         "description": "ajuste app",
         "releaseDate": "2025-06-28T08:19:28.558Z"
+      },
+      "1.0.5": {
+        "bundleUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/main/bundles/android/v1.0.5/index.android.bundle",
+        "assetsUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/main/bundles/android/v1.0.5/assets.zip",
+        "hash": "1d428a96df3ce15de642781b360b31dffa7663c99dfbc65de4a0e3c45c9a45f8",
+        "size": 1020158,
+        "mandatory": true,
+        "description": "margin bottom",
+        "releaseDate": "2025-06-28T09:46:22.970Z"
       }
     }
   },
   "ios": {
-    "latest": "1.0.4",
+    "latest": "1.0.5",
     "versions": {
       "1.0.1": {
         "bundleUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/main/bundles/ios/v1.0.1/main.jsbundle",
@@ -78,6 +87,15 @@
         "mandatory": true,
         "description": "ajuste app",
         "releaseDate": "2025-06-28T08:19:28.558Z"
+      },
+      "1.0.5": {
+        "bundleUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/main/bundles/ios/v1.0.5/main.jsbundle",
+        "assetsUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/main/bundles/ios/v1.0.5/assets.zip",
+        "hash": "e4ee0821d97cf89e8c0806a93473354f440eab50da700397eccbcceadcfe27af",
+        "size": 1015330,
+        "mandatory": true,
+        "description": "margin bottom",
+        "releaseDate": "2025-06-28T09:46:22.970Z"
       }
     }
   }
