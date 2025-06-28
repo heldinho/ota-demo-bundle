@@ -1,66 +1,30 @@
 {
   "android": {
     "versions": {
-      "1.0.0": {
-        "bundleUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/main/bundles/android/v1.0.0/index.android.bundle",
-        "assetsUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/main/bundles/android/v1.0.0/assets.zip",
-        "hash": "c72821ca908276bf61c247123d9fc847f8c3819097e3f710a5c6cf73904a0539",
-        "size": 1008785,
-        "mandatory": false,
-        "description": "Correções de bugs",
-        "releaseDate": "2025-06-28T06:24:15.440Z"
-      },
       "1.0.2": {
-        "bundleUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/main/bundles/android/v1.0.2/index.android.bundle",
-        "assetsUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/main/bundles/android/v1.0.2/assets.zip",
-        "hash": "c72821ca908276bf61c247123d9fc847f8c3819097e3f710a5c6cf73904a0539",
-        "size": 1008785,
+        "bundleUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/refs/heads/main/bundles/android/v1.0.2/index.android.bundle",
+        "assetsUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/refs/heads/main/bundles/android/v1.0.2/assets.zip",
+        "hash": "63a401502a1516007b9fa4bf03c0a023fd9fb2555fedf4e5fc98bd7ea7c23b7a",
+        "size": 1008799,
         "mandatory": false,
         "description": "Correções de bugs",
-        "releaseDate": "2025-06-28T06:25:09.924Z"
-      },
-      "1.0.3": {
-        "bundleUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/refs/heads/main/bundles/android/v1.0.3/index.android.bundle",
-        "assetsUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/refs/heads/main/bundles/android/v1.0.3/assets.zip",
-        "hash": "2c69ca0bf8db5cd8ffb74d840caacef1c4f30b472582a7f771776dc0288c7a30",
-        "size": 1008807,
-        "mandatory": false,
-        "description": "Correções de bugs",
-        "releaseDate": "2025-06-28T06:33:54.753Z"
+        "releaseDate": "2025-06-28T06:43:43.484Z"
       }
     },
-    "latest": "1.0.3"
+    "latest": "1.0.2"
   },
   "ios": {
     "versions": {
-      "1.0.0": {
-        "bundleUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/main/bundles/ios/v1.0.0/main.jsbundle",
-        "assetsUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/main/bundles/ios/v1.0.0/assets.zip",
-        "hash": "8cd19aeee9c415614926323bcef7f46af27f10c7cd1e4bbeba36fd677f85b148",
-        "size": 1003957,
-        "mandatory": false,
-        "description": "Correções de bugs",
-        "releaseDate": "2025-06-28T06:24:15.440Z"
-      },
       "1.0.2": {
-        "bundleUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/main/bundles/ios/v1.0.2/main.jsbundle",
-        "assetsUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/main/bundles/ios/v1.0.2/assets.zip",
-        "hash": "8cd19aeee9c415614926323bcef7f46af27f10c7cd1e4bbeba36fd677f85b148",
-        "size": 1003957,
+        "bundleUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/refs/heads/main/bundles/ios/v1.0.2/main.jsbundle",
+        "assetsUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/refs/heads/main/bundles/ios/v1.0.2/assets.zip",
+        "hash": "10fc8eddaf0c82604d9bf944450208411173c57af1fe8ede1d0bf19db77b8c96",
+        "size": 1003971,
         "mandatory": false,
         "description": "Correções de bugs",
-        "releaseDate": "2025-06-28T06:25:09.924Z"
-      },
-      "1.0.3": {
-        "bundleUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/refs/heads/main/bundles/ios/v1.0.3/main.jsbundle",
-        "assetsUrl": "https://raw.githubusercontent.com/heldinho/ota-demo-bundle/refs/heads/main/bundles/ios/v1.0.3/assets.zip",
-        "hash": "1d10ad1cafc48f9a239f9bb1aa19126162c4f2dcd82d804c45d01b54e79c4034",
-        "size": 1003979,
-        "mandatory": false,
-        "description": "Correções de bugs",
-        "releaseDate": "2025-06-28T06:33:54.753Z"
+        "releaseDate": "2025-06-28T06:43:43.484Z"
       }
     },
-    "latest": "1.0.3"
+    "latest": "1.0.2"
   }
 }
