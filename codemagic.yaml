@@ -1,9 +1,29 @@
+
 workflows:
-
-    sample-workflow:
-
-        name: Codemagic Sample Workflow
-
-        max_build_duration: 120
-
-        instance_type: linux_x2
+  expo-app:
+    name: Expo App Build
+    max_build_duration: 60
+    instance_type: linux_x2
+    environment:
+      vars:
+        EXPO_TOKEN: "<coloque_seu_token_aqui>"
+      node: 20.11.1
+      npm: 10.5.0
+      xcode: latest
+      android: latest
+    scripts:
+      - name: Instalar dependências
+        script: npm install
+      - name: Build Android
+        script: npx expo export --platform android -o dist/android
+      - name: Build iOS
+        script: npx expo export --platform ios -o dist/ios
+    artifacts:
+      - dist/**
+    publishing:
+      email:
+        recipients:
+          - helder.passos@opah.com.br
+        notify:
+          success: true
+          failure: true
