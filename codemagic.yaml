@@ -9,8 +9,6 @@ workflows:
         EXPO_TOKEN: "<coloque_seu_token_aqui>"
       node: 20.11.1
       npm: 10.5.0
-      xcode: latest
-      android: latest
     scripts:
       - name: Instalar dependências
         script: npm install
